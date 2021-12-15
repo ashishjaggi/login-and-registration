@@ -50,4 +50,6 @@ Route::group(['namespace' => 'App\Http\Controllers'], function()
 
         Route::get('/index', 'AdminhomeController@perform')->name('index.perform');
     });
+
+    
 });
